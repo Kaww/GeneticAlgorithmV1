@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4945CC1228AA74B100CC39BF /* GeneticsV1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945CC1128AA74B100CC39BF /* GeneticsV1App.swift */; };
+		4945CC1428AA74B100CC39BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945CC1328AA74B100CC39BF /* ContentView.swift */; };
+		4945CC1628AA74B200CC39BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4945CC1528AA74B200CC39BF /* Assets.xcassets */; };
+		4945CC1928AA74B200CC39BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4945CC1828AA74B200CC39BF /* Preview Assets.xcassets */; };
+		4945CC2328AA74B200CC39BF /* GeneticsV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945CC2228AA74B200CC39BF /* GeneticsV1Tests.swift */; };
+		4945CC3D28AA756500CC39BF /* DNA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945CC3C28AA756500CC39BF /* DNA.swift */; };
+		4945CC3F28AA757600CC39BF /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945CC3E28AA757600CC39BF /* Population.swift */; };
+		4945CC4128AA758400CC39BF /* Evolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945CC4028AA758400CC39BF /* Evolution.swift */; };
+		4945CC4328AA787900CC39BF /* NewCommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945CC4228AA787900CC39BF /* NewCommandView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4945CC1F28AA74B200CC39BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4945CC0628AA74B100CC39BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4945CC0D28AA74B100CC39BF;
+			remoteInfo = GeneticsV1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4945CC0E28AA74B100CC39BF /* GeneticsV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeneticsV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4945CC1128AA74B100CC39BF /* GeneticsV1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticsV1App.swift; sourceTree = "<group>"; };
+		4945CC1328AA74B100CC39BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4945CC1528AA74B200CC39BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4945CC1828AA74B200CC39BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4945CC1E28AA74B200CC39BF /* GeneticsV1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeneticsV1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4945CC2228AA74B200CC39BF /* GeneticsV1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneticsV1Tests.swift; sourceTree = "<group>"; };
+		4945CC3C28AA756500CC39BF /* DNA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNA.swift; sourceTree = "<group>"; };
+		4945CC3E28AA757600CC39BF /* Population.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
+		4945CC4028AA758400CC39BF /* Evolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evolution.swift; sourceTree = "<group>"; };
+		4945CC4228AA787900CC39BF /* NewCommandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCommandView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4945CC0B28AA74B100CC39BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4945CC1B28AA74B200CC39BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4945CC0528AA74B100CC39BF = {
+			isa = PBXGroup;
+			children = (
+				4945CC1028AA74B100CC39BF /* GeneticsV1 */,
+				4945CC2128AA74B200CC39BF /* GeneticsV1Tests */,
+				4945CC0F28AA74B100CC39BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4945CC0F28AA74B100CC39BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4945CC0E28AA74B100CC39BF /* GeneticsV1.app */,
+				4945CC1E28AA74B200CC39BF /* GeneticsV1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4945CC1028AA74B100CC39BF /* GeneticsV1 */ = {
+			isa = PBXGroup;
+			children = (
+				4945CC1128AA74B100CC39BF /* GeneticsV1App.swift */,
+				4945CC1328AA74B100CC39BF /* ContentView.swift */,
+				4945CC4228AA787900CC39BF /* NewCommandView.swift */,
+				4945CC3B28AA753600CC39BF /* Algorithm */,
+				4945CC1528AA74B200CC39BF /* Assets.xcassets */,
+				4945CC1728AA74B200CC39BF /* Preview Content */,
+			);
+			path = GeneticsV1;
+			sourceTree = "<group>";
+		};
+		4945CC1728AA74B200CC39BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4945CC1828AA74B200CC39BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4945CC2128AA74B200CC39BF /* GeneticsV1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4945CC2228AA74B200CC39BF /* GeneticsV1Tests.swift */,
+			);
+			path = GeneticsV1Tests;
+			sourceTree = "<group>";
+		};
+		4945CC3B28AA753600CC39BF /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				4945CC3C28AA756500CC39BF /* DNA.swift */,
+				4945CC3E28AA757600CC39BF /* Population.swift */,
+				4945CC4028AA758400CC39BF /* Evolution.swift */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4945CC0D28AA74B100CC39BF /* GeneticsV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4945CC3228AA74B200CC39BF /* Build configuration list for PBXNativeTarget "GeneticsV1" */;
+			buildPhases = (
+				4945CC0A28AA74B100CC39BF /* Sources */,
+				4945CC0B28AA74B100CC39BF /* Frameworks */,
+				4945CC0C28AA74B100CC39BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeneticsV1;
+			productName = GeneticsV1;
+			productReference = 4945CC0E28AA74B100CC39BF /* GeneticsV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4945CC1D28AA74B200CC39BF /* GeneticsV1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4945CC3528AA74B200CC39BF /* Build configuration list for PBXNativeTarget "GeneticsV1Tests" */;
+			buildPhases = (
+				4945CC1A28AA74B200CC39BF /* Sources */,
+				4945CC1B28AA74B200CC39BF /* Frameworks */,
+				4945CC1C28AA74B200CC39BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4945CC2028AA74B200CC39BF /* PBXTargetDependency */,
+			);
+			name = GeneticsV1Tests;
+			productName = GeneticsV1Tests;
+			productReference = 4945CC1E28AA74B200CC39BF /* GeneticsV1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4945CC0628AA74B100CC39BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4945CC0D28AA74B100CC39BF = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					4945CC1D28AA74B200CC39BF = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 4945CC0D28AA74B100CC39BF;
+					};
+				};
+			};
+			buildConfigurationList = 4945CC0928AA74B100CC39BF /* Build configuration list for PBXProject "GeneticsV1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4945CC0528AA74B100CC39BF;
+			productRefGroup = 4945CC0F28AA74B100CC39BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4945CC0D28AA74B100CC39BF /* GeneticsV1 */,
+				4945CC1D28AA74B200CC39BF /* GeneticsV1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4945CC0C28AA74B100CC39BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4945CC1928AA74B200CC39BF /* Preview Assets.xcassets in Resources */,
+				4945CC1628AA74B200CC39BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4945CC1C28AA74B200CC39BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4945CC0A28AA74B100CC39BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4945CC3D28AA756500CC39BF /* DNA.swift in Sources */,
+				4945CC4328AA787900CC39BF /* NewCommandView.swift in Sources */,
+				4945CC1428AA74B100CC39BF /* ContentView.swift in Sources */,
+				4945CC3F28AA757600CC39BF /* Population.swift in Sources */,
+				4945CC4128AA758400CC39BF /* Evolution.swift in Sources */,
+				4945CC1228AA74B100CC39BF /* GeneticsV1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4945CC1A28AA74B200CC39BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4945CC2328AA74B200CC39BF /* GeneticsV1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4945CC2028AA74B200CC39BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4945CC0D28AA74B100CC39BF /* GeneticsV1 */;
+			targetProxy = 4945CC1F28AA74B200CC39BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4945CC3028AA74B200CC39BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4945CC3128AA74B200CC39BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4945CC3328AA74B200CC39BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeneticsV1/Preview Content\"";
+				DEVELOPMENT_TEAM = 89EXPD2XDP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawrantin.GeneticsV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4945CC3428AA74B200CC39BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeneticsV1/Preview Content\"";
+				DEVELOPMENT_TEAM = 89EXPD2XDP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawrantin.GeneticsV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4945CC3628AA74B200CC39BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89EXPD2XDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawrantin.GeneticsV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneticsV1.app/GeneticsV1";
+			};
+			name = Debug;
+		};
+		4945CC3728AA74B200CC39BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89EXPD2XDP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kawrantin.GeneticsV1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeneticsV1.app/GeneticsV1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4945CC0928AA74B100CC39BF /* Build configuration list for PBXProject "GeneticsV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4945CC3028AA74B200CC39BF /* Debug */,
+				4945CC3128AA74B200CC39BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4945CC3228AA74B200CC39BF /* Build configuration list for PBXNativeTarget "GeneticsV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4945CC3328AA74B200CC39BF /* Debug */,
+				4945CC3428AA74B200CC39BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4945CC3528AA74B200CC39BF /* Build configuration list for PBXNativeTarget "GeneticsV1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4945CC3628AA74B200CC39BF /* Debug */,
+				4945CC3728AA74B200CC39BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4945CC0628AA74B100CC39BF /* Project object */;
+}
